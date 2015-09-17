@@ -1,0 +1,72 @@
+/* line 1, carlosgarde.less */
+#main {
+  position: absolute;
+  top: 20%;
+  left: 18%;
+}
+/* line 6, carlosgarde.less */
+#main #favourites,
+#main #searchDiv {
+  border: 1px solid grey;
+  height: 400px;
+  width: 400px;
+  overflow: auto;
+}
+/* line 13, carlosgarde.less */
+#main #citiesFoundSection,
+#main #favouritesCitiesSection {
+  top: 30%;
+  left: 14%;
+  position: absolute;
+}
+/* line 19, carlosgarde.less */
+#main #searchBox {
+  top: 13%;
+  left: 18%;
+  position: absolute;
+  line-height: 51px;
+  color: white;
+}
+/* line 25, carlosgarde.less */
+#main #searchBox input {
+  width: 200px;
+  background-color: #3C983C;
+}
+/* line 29, carlosgarde.less */
+#main #searchBox button {
+  width: 50px;
+  background-color: #3C983C;
+}
+/* line 37, carlosgarde.less */
+#main #searchDiv #citiesFoundSection div {
+  border: 1px solid grey;
+  height: 51px;
+  width: 288px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 51px;
+}
+/* line 44, carlosgarde.less */
+#main #searchDiv #citiesFoundSection div i {
+  cursor: pointer;
+}
+/* line 52, carlosgarde.less */
+#main #favourites #favouriteCitiesTitle {
+  color: grey;
+  top: 10%;
+  left: 20%;
+  position: absolute;
+}
+/* line 60, carlosgarde.less */
+#main #favourites #favouritesCitiesSection div {
+  border: 1px solid grey;
+  height: 51px;
+  width: 288px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 51px;
+}
+/* line 67, carlosgarde.less */
+#main #favourites #favouritesCitiesSection div i {
+  cursor: pointer;
+}
